@@ -38,7 +38,7 @@ mokoranyAli, mohammed.korany.ali@gmail.com
 
 AnAlertView is available under the MIT license. See the LICENSE file for more info.
 
-```ruby
+```
 
 
 # To be continued .. !
