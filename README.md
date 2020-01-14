@@ -8,7 +8,9 @@
 ## Example
 
 1 - import AnAlertView 
+
 2 - make your vc conform AlertViewDelegate
+
 3 - AlertView.showAlert(message: "This is simple alertview with some animation .. thank you for watching", button: "ok", delegate: self, container: self, image: UIImage(named: "myPhoto"))
 
 or run the demo on "Example"
@@ -16,6 +18,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 ios 12
+
 xcode 10.2
 
 ## Installation
