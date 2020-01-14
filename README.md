@@ -7,9 +7,16 @@
 
 ## Example
 
+1 - import AnAlertView 
+2 - make your vc conform AlertViewDelegate
+3 - AlertView.showAlert(message: "This is simple alertview with some animation .. thank you for watching", button: "ok", delegate: self, container: self, image: UIImage(named: "myPhoto"))
+
+or run the demo on "Example"
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+ios 12
+xcode 10.2
 
 ## Installation
 
@@ -28,4 +35,6 @@ mokoranyAli, mohammed.korany.ali@gmail.com
 
 AnAlertView is available under the MIT license. See the LICENSE file for more info.
 
-# AnAlertView
+
+
+# To be continued .. !
