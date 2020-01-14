@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import AnAlertView
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , AlertViewDelegate {
+    func dismissButtonTapped(_ button: UIButton) {
+        print("ok did pressed")
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        DispatchQueue.main.async {
+            AlertView.showAlert(message: "This is simple alertview with some animation .. thank you for watching", button: "ok", delegate: self, container: self, image: nil)
+            
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+   
 }
 
